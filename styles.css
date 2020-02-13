@@ -1,0 +1,135 @@
+body {
+    font-family: 'Staatliches', cursive;
+    background-image: url("https://i.pinimg.com/originals/c4/e6/4f/c4e64fb6d377bf2789c245fa13effa24.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: black;
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+img {
+    width: 162px;
+}
+
+.bigheading {
+    font-size: 70px;
+}
+
+.album-img {
+    position: relative;
+    width: 162px;
+    height: 162px;
+    display: inline-block;
+}
+
+.album-img:hover .image-cover {
+    opacity: .5;
+}
+
+.image-cover {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .4s ease;
+    background-color: black;
+}
+
+.album-img:hover .hover-text {
+    opacity: 1;
+}
+
+.hover-text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 0;
+    transition: .4s ease;
+}
+
+.album-grid {
+    display: flex;
+    padding: 0px;
+}
+
+.grid-album {
+    border: solid 1px black;
+    padding: 0px;
+}
+
+.video-img {
+    position: relative;
+    width: 165px;
+    height: 91px;
+    display: inline-block;
+}
+
+.video-img:hover .image-cover {
+    opacity: .5;
+}
+
+.video-img:hover .hover-text {
+    opacity: 1;
+}
+
+.video-grid {
+    display: flex;
+    padding: 0px;
+}
+
+.grid-video {
+    border: solid 1px black;
+    padding: 0px;
+}
+
+.imgreveal {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    transition: .4s ease;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/I/61Dw4RGUNAL._SX466_.jpg");
+    background-size: contain;
+    height: 165px;
+    border: solid 1px white;
+}
+
+.imgreveal:hover {
+    opacity: 0;
+}
+
+.vid-imgreveal {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    transition: .4s ease;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/I/61Dw4RGUNAL._SX466_.jpg");
+    background-size: contain;
+    width: 165px;
+    height: 91px;
+    border: solid 1px white;
+}
+
+.vid-imgreveal:hover {
+    opacity: 0;
+}
